@@ -17,7 +17,6 @@ This Flutter application fetches data from an API, displays it in a searchable L
 ### Installing Dependencies
 This project requires the `http` package to make HTTP requests. Add it to your `pubspec.yaml` file:
 
-```yaml
 dependencies:
   flutter:
     sdk: flutter
