@@ -17,40 +17,38 @@ This Flutter application fetches data from an API, displays it in a searchable L
 ### Installing Dependencies
 This project requires the `http` package to make HTTP requests. Add it to your `pubspec.yaml` file:
 
-```yaml
 dependencies:
   flutter:
     sdk: flutter
   http: ^1.2.2
 After adding it, run:
 
-bash
-Copy code
+
 flutter pub get
 Running the App
 Clone the Repository:
 
-bash
-Copy code
+
 git clone <repository_url>
 cd <repository_directory>
-Run the App:
 
+Run the App:
 To run on an Android emulator or iOS simulator:
-bash
-Copy code
+
 flutter run
 To run on a connected device:
-bash
-Copy code
+
 flutter devices
 flutter run -d <device_id>
+
 API Data Handling
 Data Fetching: Data is fetched from https://jsonplaceholder.typicode.com/posts and parsed from JSON format.
 Displaying Data: Each item in the ListView displays the title and body of a post.
 Search Filter: A TextField allows for dynamic search, filtering items by title as the user types.
+
 Dependencies
 http package: For handling HTTP requests to fetch data from the API.
 flutter/material.dart: Provides foundational Flutter widgets and material design.
+
 App Preview
 The app has a clean, minimalistic UI with a search bar and loading indicator
